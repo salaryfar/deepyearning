@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DEEP YEARNING // VALFI</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      background: #000080;
+      color: #FFFF00;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    a { color: #00FF00; text-decoration: underline; }
+    a:hover { color: #FF00FF; }
+    #wrapper { width: 760px; margin: 0 auto; background-color: #000040; border: 3px ridge #CCCCCC; }
+    #header { background: linear-gradient(to bottom, #0000AA, #000044); text-align: center; padding: 10px; border-bottom: 3px groove #CCCCCC; }
+    #header h1 { color: #FFFF00; font-size: 32px; margin: 5px 0; text-shadow: 2px 2px #000000; }
+    #nav { background-color: #000033; border-bottom: 2px solid #666666; text-align: center; padding: 5px; font-size: 13px; }
+    #nav a { margin: 0 10px; }
+    #content { padding: 10px; }
+    .sidebar { width: 180px; vertical-align: top; background-color: #000022; border-right: 2px solid #666666; padding: 5px; font-size: 12px; }
+    .main { padding: 10px; font-size: 14px; }
+    .box { border: 2px groove #999999; background-color: #000000; padding: 5px; margin-bottom: 10px; }
+    .hit-counter { font-family: "Courier New", monospace; font-size: 16px; background-color: #000000; color: #00FF00; padding: 3px 6px; border: 2px inset #00AA00; display: inline-block; }
+    #footer { text-align: center; padding: 10px; font-size: 11px; background-color: #000022; border-top: 2px solid #666666; color: #CCCCCC; }
+    .blink { animation: blink 1s step-start 0s infinite; }
+    @keyframes blink { 50% { visibility: hidden; } }
+    .ascii-divider { font-family:"Courier New", monospace; text-align:center; margin:6px 0; font-size:11px; color:#CCCCCC; }
+    .process-box { margin-top:8px; padding:6px; border:1px dashed #666666; background-color:#000022; font-size:12px; }
+  </style>
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <marquee behavior="alternate" scrollamount="6">
+      <span style="font-size: 18px; color: #00FFFF;">*** WELCOME TO THE DEEP YEARNING PROJECT ***</span>
+    </marquee>
+    <h1>VALFI :: DEEP YEARNING</h1>
+    <div style="font-size: 12px; margin-top: 5px;">Best experienced with headphones</div>
+  </div>
+
+  <div id="nav">
+    <a href="#">HOME</a> |
+    <a href="#">ABOUT VALFI</a> |
+    <a href="#">DEEP YEARNING LORE</a> |
+    <a href="#">SIGN THE LOGFILE</a>
+  </div>
+
+  <div id="content">
+    <table width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="sidebar">
+          <div class="box"><b class="blink">NEW!!!</b><br>Listen to<br><a href="#">"Deep Yearning" (Audio)</a> 🎵</div>
+          <div class="box"><b>Sign My Guestbook</b><br><br><a href="#">➤ SIGN</a><br><a href="#">➤ VIEW</a></div>
+          <div class="box"><b>Cool Links</b><br><br>
+            <ul style="padding-left: 16px; margin: 0;">
+              <li><a href="#">Bounce Website</a></li>
+              <li><a href="#">Freemicrotonalmusicgames.org</a></li>
+              <li><a href="#">MicroStep HQ</a></li>
+            </ul>
+          </div>
+        </td>
+
+        <td class="main">
+          <h2 style="color:#FFFFFF; font-size:20px; margin-top:0;">
+            Welcome to the <span style="color:#00FFFF;">Deep Yearning</span> homepage
+          </h2>
+
+          <p>
+            "Deep Yearning" is a track by <b>Valfi</b>, a low-poly entity creating high-information music.<br><br>
+            It is a human take on <b>deep learning</b>: instead of neural networks, it feeds core memories into one big emotional model.<br><br>
+            This archive is still <span style="color:#FF0000; font-weight:bold;">UNDER CONSTRUCTION</span>!!!
+          </p>
+
+          <hr color="#666666">
+          <div class="ascii-divider blink">[==={*}================================={*}===]</div>
+
+          <h3 style="color:#FFFF00;">Deep Log / Latest Updates</h3>
+          <ul>
+            <li><b>01/01/1999</b> - Final render of "Deep Yearning" exported at 128 kbps</li>
+            <li><b>12/20/1998</b> - Microtonal lead patched</li>
+            <li><b>11/05/1998</b> - Concept discovered: Emphasize quarter tone and use MPE slides</li>
+          </ul>
+
+          <div class="ascii-divider blink">::::::::::::::://\\\</div>
+
+          <h3 style="color:#FFAA00;">Download "Deep Yearning"</h3>
+          <p>
+            <a href="#" style="font-weight:bold;">[ DOWNLOAD MP3 ]</a><br>
+            <span style="font-size:12px;">128 kbps · 3.4 MB · requires Winamp or similar</span>
+          </p>
+
+          <div class="ascii-divider blink">- - - - - - - - - - - - - - -</div>
+
+          <h3 style="color:#00FF99;">How deep yearning is trained</h3>
+          <p style="font-size:12px;">
+            Slide the dial from left to right to see how data becomes <b>Valfi</b> and then <b>Deep Yearning</b>.
+          </p>
+
+          <div style="background-color:#000000; border:2px inset #666666; padding:8px; margin-bottom:10px;">
+            <input id="dy-slider" type="range" min="0" max="2" value="0" style="width:100%;">
+            <div id="stage-core" class="process-box">
+              <b>Stage 1: Core Memory</b><br>
+              Bakirkoy, Iran, CD Store, Computer Repair Store etc.
+            </div>
+            <div id="stage-valfi" class="process-box" style="display:none;">
+              <b>Stage 2: Valfi</b><br>
+              Low-poly entity that organizes the information into patterns
+            </div>
+            <div id="stage-dy" class="process-box" style="display:none;">
+              <b>Stage 3: Deep Yearning</b><br>
+              All of the above rendered into an audio file
+            </div>
+          </div>
+
+          <div class="ascii-divider blink">-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</div>
+
+          <h3 style="color:#CCCCFF;">Free wallpaper!</h3>
+          <p style="font-size:12px;">Preview of the Deep Yearning visual by cece:</p>
+
+          <div style="background-color:#000000; border:2px groove #999999; padding:5px; text-align:center;">
+            <img src="https://i.imgur.com/5D1vCgR.jpeg" style="width:200px; height:auto; border-radius:50%; border:4px solid #ff99bb;">
+          </div>
+
+          <hr color="#666666">
+          <h3 style="color:#00FFFF;">Log your own yearning</h3>
+          <p>
+            Type a message to future-you: Where are you listening from? Who are you?<br>
+            Click <a href="#"><b>here</b></a> to append to the global logfile.
+          </p>
+
+          <div>
+            <b>You are listener number:</b><br><br>
+            <span class="hit-counter">80UNC3</span>
+          </div>
+
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="footer">
+    &copy; 2025 BOUNCE / VALFI :: DEEP YEARNING.
+  </div>
+</div>
+
+<script>
+(function() {
+  var slider = document.getElementById('dy-slider');
+  if (!slider) return;
+  var core = document.getElementById('stage-core');
+  var valfi = document.getElementById('stage-valfi');
+  var dy = document.getElementById('stage-dy');
+  function update() {
+    var v = parseInt(slider.value, 10) || 0;
+    core.style.display = (v === 0) ? 'block' : 'none';
+    valfi.style.display = (v === 1) ? 'block' : 'none';
+    dy.style.display = (v === 2) ? 'block' : 'none';
+  }
+  slider.addEventListener('input', update);
+  slider.addEventListener('change', update);
+  update();
+})();
+</script>
+
+</body>
+</html>
